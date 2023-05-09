@@ -19,7 +19,7 @@ let data = [
     {
       img : "https://res.cloudinary.com/db33ksgrm/image/upload/v1683647309/deba_web_bios7h.jpg",
       disc : "This is my own website.",
-      demo:"https://www.mithyaraj.com/"
+      demo:"https://debanjanmalakar.vercel.app/"
   },
   {
     img:"https://res.cloudinary.com/db33ksgrm/image/upload/v1683645198/shrayashiport_v1gpiy.jpg",
