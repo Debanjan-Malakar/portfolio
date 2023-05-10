@@ -11,11 +11,11 @@ const Header = () => {
             <h1a>Portfolio</h1a>
         </Logo>
         <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
-            <span><a href="#project">Projects</a></span>
-            <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Contact</a></span>
+            <span onClick={() => setBar(!bar)} className="bar"><a href="#home">Home</a></span>
+            <span onClick={() => setBar(!bar)} className="bar"><a href="#service">Services</a></span>
+            <span onClick={() => setBar(!bar)} className="bar"><a href="#project">Projects</a></span>
+            <span onClick={() => setBar(!bar)} className="bar"><a href="#client">Testimonials</a></span>
+            <span onClick={() => setBar(!bar)} className="bar"><a href="#footer">Contact</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
