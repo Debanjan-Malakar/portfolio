@@ -11,9 +11,9 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          My services
         </h4>
-        <h1>What I Do</h1>
+        <h1>What <span className="green"> I Do</span></h1>
       </Slide>
       <Cards>
         <Slide direction="left">
